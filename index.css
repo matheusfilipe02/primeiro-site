@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@font-face {
+    font-family: 'FonteH1';
+    src: url("bubblegum-sans-regular.otf");
+}
+
+body {
+    background: white;
+    font: bold 12pt Arial;
+}
+
+span {
+    color: red;
+}
+
+header h1 {
+    color: black;
+    font-family: 'FonteH1', sans-serif;
+}
+
+section {
+    background: white;
+    width: 800px;
+    padding: -30px;
+}
+
+section h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22pt;
+}
+
+div#Ctext input {
+    margin-left: 20px;
+    font-size: 11pt;
+    padding: 9px;
+    border: 3px solid rgba(0, 0, 0, 0.486);
+}
+
+div#Ctext input#Botao {
+    background-color: rgb(84, 123, 197);
+    font-size: 12pt;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border: 0px;
+    margin-left: 0px;
+    border-radius: 12px;
+}
