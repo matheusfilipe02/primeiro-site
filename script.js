@@ -4,5 +4,7 @@ function enviar() {
     let password = document.getElementById("Senha")
     if (name.value.length == "" || mail.value.length == "" || password.value.length == "") {
         alert("Por favor, digite o que se pede!")
+    } else {
+        document.write("Cadastro feito com sucesso!")
     }
 }
