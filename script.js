@@ -5,6 +5,6 @@ function enviar() {
     if (name.value.length == "" || mail.value.length == "" || password.value.length == "") {
         alert("Por favor, digite o que se pede!")
     } else {
-        document.write("Cadastro feito com sucesso!")
+        alert("Cadastro efetuado com sucesso!")
     }
 }
